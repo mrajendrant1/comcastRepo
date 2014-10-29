@@ -1,0 +1,109 @@
+<uml:Model xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:version="2.0" xmi:id="_resource" name="resource">
+<packagedElement xsi:type="uml:Class" xmi:id="1ced1bfc-e28b-490c-a06c-4be8ea33a3bb" name="A">
+<ownedAttribute xmi:id="_aid_A" name="aid">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_aid_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_aid_A" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_sessionId_A" name="sessionId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_sessionId_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_sessionId_A" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_orderRefId_A" name="orderRefId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_orderRefId_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_orderRefId_A" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_cid_fk_A" name="cid_fk">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_cid_fk_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_cid_fk_A" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_A" name="get" input="" output="">
+<ownedParameter xmi:id="_P_get_A" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_A" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="19ec0fa1-affb-4701-a42d-3d386f7b7dca" name="B">
+<ownedAttribute xmi:id="_bId_B" name="bId">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_bId_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_bId_B" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_service_namr_B" name="service_namr">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_service_namr_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_service_namr_B" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_service_op_B" name="service_op">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_service_op_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_service_op_B" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_cib_fk_B" name="cib_fk">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_cib_fk_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_cib_fk_B" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_aid_fk_B" name="aid_fk">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_aid_fk_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_aid_fk_B" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_B" name="get">
+<ownedParameter xmi:id="_P_get_B" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_B" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="4d95f0e5-2b08-40f7-8c9e-09f95c91a322" name="C">
+<ownedAttribute xmi:id="_id_C" name="id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_id_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_id_C" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_C" name="get">
+<ownedParameter xmi:id="_P_get_C" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_C" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="1cd39cf6-a16c-4fdf-9d6e-6731a010807a" name="A_B" memberEnd="_OETI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a _OESI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" navigableOwnedEnd="_OETI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a _OESI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a">
+ <ownedEnd xmi:id="_OETI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" name="b" type="19ec0fa1-affb-4701-a42d-3d386f7b7dca" association="1cd39cf6-a16c-4fdf-9d6e-6731a010807a">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" name="a" type="1ced1bfc-e28b-490c-a06c-4be8ea33a3bb" association="1cd39cf6-a16c-4fdf-9d6e-6731a010807a">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_1cd39cf6-a16c-4fdf-9d6e-6731a010807a" value="1"/>
+</ownedEnd>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="5ae2053f-5dd1-4f10-a71a-012daef29f64" name="C_A" memberEnd="_OETI_5ae2053f-5dd1-4f10-a71a-012daef29f64 _OESI_5ae2053f-5dd1-4f10-a71a-012daef29f64" navigableOwnedEnd="_OETI_5ae2053f-5dd1-4f10-a71a-012daef29f64 _OESI_5ae2053f-5dd1-4f10-a71a-012daef29f64">
+ <ownedEnd xmi:id="_OETI_5ae2053f-5dd1-4f10-a71a-012daef29f64" name="a" type="1ced1bfc-e28b-490c-a06c-4be8ea33a3bb" association="5ae2053f-5dd1-4f10-a71a-012daef29f64">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_5ae2053f-5dd1-4f10-a71a-012daef29f64" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_5ae2053f-5dd1-4f10-a71a-012daef29f64" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_5ae2053f-5dd1-4f10-a71a-012daef29f64" name="c" type="4d95f0e5-2b08-40f7-8c9e-09f95c91a322" association="5ae2053f-5dd1-4f10-a71a-012daef29f64">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_5ae2053f-5dd1-4f10-a71a-012daef29f64" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_5ae2053f-5dd1-4f10-a71a-012daef29f64" value="1"/>
+</ownedEnd>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="a7ff6ad0-171c-4144-99b1-494be85ee00e" name="C_B" memberEnd="_OETI_a7ff6ad0-171c-4144-99b1-494be85ee00e _OESI_a7ff6ad0-171c-4144-99b1-494be85ee00e" navigableOwnedEnd="_OETI_a7ff6ad0-171c-4144-99b1-494be85ee00e _OESI_a7ff6ad0-171c-4144-99b1-494be85ee00e">
+ <ownedEnd xmi:id="_OETI_a7ff6ad0-171c-4144-99b1-494be85ee00e" name="b" type="19ec0fa1-affb-4701-a42d-3d386f7b7dca" association="a7ff6ad0-171c-4144-99b1-494be85ee00e">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_a7ff6ad0-171c-4144-99b1-494be85ee00e" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_a7ff6ad0-171c-4144-99b1-494be85ee00e" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_a7ff6ad0-171c-4144-99b1-494be85ee00e" name="c" type="4d95f0e5-2b08-40f7-8c9e-09f95c91a322" association="a7ff6ad0-171c-4144-99b1-494be85ee00e">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_a7ff6ad0-171c-4144-99b1-494be85ee00e" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_a7ff6ad0-171c-4144-99b1-494be85ee00e" value="1"/>
+</ownedEnd>
+</packagedElement>
+</uml:Model>
