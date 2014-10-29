@@ -1,0 +1,58 @@
+<uml:Model xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:version="2.0" xmi:id="_resource" name="resource">
+<packagedElement xsi:type="uml:Class" xmi:id="9a5eef77-bdb1-4d7b-b732-3f9f4adbae98" name="C">
+<ownedAttribute xmi:id="_cid_C" name="cid">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_cid_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_cid_C" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_C" name="get">
+<ownedParameter xmi:id="_P_get_C" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_C" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="9a5df218-fe2e-48f1-a2c0-a3070a0b50ac" name="B">
+<ownedAttribute xmi:id="_bid_B" name="bid">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_bid_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_bid_B" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_vcxcx_B" name="vcxcx">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_vcxcx_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_vcxcx_B" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_B" name="get">
+<ownedParameter xmi:id="_P_get_B" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_B" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_B" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="ca3e9f21-8d78-4fe8-9749-6ba8dcd3255c" name="A">
+<ownedAttribute xmi:id="_id_A" name="id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_id_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_id_A" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_A" name="get">
+<ownedParameter xmi:id="_P_get_A" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_A" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_A" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" name="A_B" memberEnd="_OETI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d _OESI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" navigableOwnedEnd="_OETI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d _OESI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d">
+ <ownedEnd xmi:id="_OETI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" name="b" type="9a5df218-fe2e-48f1-a2c0-a3070a0b50ac" association="cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" name="a" type="ca3e9f21-8d78-4fe8-9749-6ba8dcd3255c" association="cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_cb4765e3-c316-4e0d-8d0f-3d71d5b29e6d" value="1"/>
+</ownedEnd>
+</packagedElement>
+</uml:Model>
