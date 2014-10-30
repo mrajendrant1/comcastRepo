@@ -13,4 +13,18 @@
 </ownedParameter>
 </ownedOperation>
 </packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="c33fc705-37ec-43cd-95f7-a3a18671c69d" name="Class">
+<ownedAttribute xmi:id="_id_Class" name="id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_id_Class" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_id_Class" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_Class" name="get" input="input" output="output">
+<ownedParameter xmi:id="_P_get_Class" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_Class" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_Class" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
 </uml:Model>
