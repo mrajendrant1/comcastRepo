@@ -1,0 +1,1 @@
+{"items":[{"mappingDetails":"Class","modelName":"Class","name":"Class","children":[{"mappingDetails":"Class/id","name":"id","type":"Long"},{"mappingDetails":"Class/get()","name":"get()","requestModelName":"input","responseModelName":"output"}],"type":"Model"}],"apiList":["/Class"],"label":"name"}
