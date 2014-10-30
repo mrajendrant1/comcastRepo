@@ -10,11 +10,30 @@
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_name_A" value="1"/>
 <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_name_A" value="1"/>
 </ownedAttribute>
-<ownedOperation xmi:id="_O_get_A" name="get">
+<ownedOperation xmi:id="_O_get_A" name="get" input="input" output="output">
 <ownedParameter xmi:id="_P_get_A" name="returnParameter" isUnique="false" direction="return">
 <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_A" value="1"/>
 <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_A" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="61a70702-52d3-465c-ba49-9b91af311900" name="C">
+<ownedAttribute xmi:id="_cid_C" name="cid">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_cid_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_cid_C" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_testData_C" name="testData">
+<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_testData_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_testData_C" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_C" name="get" input="input" output="output">
+<ownedParameter xmi:id="_P_get_C" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_C" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_C" value="1"/>
 </ownedParameter>
 </ownedOperation>
 </packagedElement>
@@ -39,30 +58,11 @@
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_a_b_B" value="1"/>
 <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_a_b_B" value="1"/>
 </ownedAttribute>
-<ownedOperation xmi:id="_O_get_B" name="get">
+<ownedOperation xmi:id="_O_get_B" name="get" input="input" output="output">
 <ownedParameter xmi:id="_P_get_B" name="returnParameter" isUnique="false" direction="return">
 <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_B" value="1"/>
 <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_B" value="1"/>
-</ownedParameter>
-</ownedOperation>
-</packagedElement>
-<packagedElement xsi:type="uml:Class" xmi:id="61a70702-52d3-465c-ba49-9b91af311900" name="C">
-<ownedAttribute xmi:id="_cid_C" name="cid">
-<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
-<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_cid_C" value="1"/>
-<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_cid_C" value="1"/>
-</ownedAttribute>
-<ownedAttribute xmi:id="_testData_C" name="testData">
-<type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
-<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_testData_C" value="1"/>
-<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_testData_C" value="1"/>
-</ownedAttribute>
-<ownedOperation xmi:id="_O_get_C" name="get">
-<ownedParameter xmi:id="_P_get_C" name="returnParameter" isUnique="false" direction="return">
-<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
-<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_C" value="1"/>
-<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_C" value="1"/>
 </ownedParameter>
 </ownedOperation>
 </packagedElement>

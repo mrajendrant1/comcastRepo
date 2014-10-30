@@ -27,4 +27,18 @@
 </ownedParameter>
 </ownedOperation>
 </packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="38ff85db-4afb-41f7-ba08-7ae91a59a607" name="vhjfjmfm">
+<ownedAttribute xmi:id="_id_vhjfjmfm" name="id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_id_vhjfjmfm" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_id_vhjfjmfm" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_vhjfjmfm" name="get" input="input" output="output">
+<ownedParameter xmi:id="_P_get_vhjfjmfm" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_vhjfjmfm" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_vhjfjmfm" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
 </uml:Model>
