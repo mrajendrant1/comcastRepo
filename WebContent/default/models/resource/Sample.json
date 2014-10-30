@@ -1,0 +1,1 @@
+{"items":[{"mappingDetails":"fvdsds","modelName":"fvdsds","name":"fvdsds","children":[{"mappingDetails":"fvdsds/id","name":"id","type":"Long"},{"mappingDetails":"fvdsds/get()","name":"get()","requestModelName":"input","responseModelName":"output"}],"type":"Model"}],"apiList":["/fvdsds"],"label":"name"}
