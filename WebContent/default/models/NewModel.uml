@@ -31,6 +31,28 @@
 </ownedParameter>
 </ownedOperation>
 </packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="8330fd81-0aac-4459-9633-359557e600ee" name="ZZZZZZZZZZZZZZZ">
+<ownedAttribute xmi:id="_id_ZZZZZZZZZZZZZZZ" name="id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_id_ZZZZZZZZZZZZZZZ" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_id_ZZZZZZZZZZZZZZZ" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_TEST_ZZZZZZZZZZZZZZZ" name="TEST">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_TEST_ZZZZZZZZZZZZZZZ" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_TEST_ZZZZZZZZZZZZZZZ" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_TEST+rel_ZZZZZZZZZZZZZZZ" name="TEST+rel">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_TEST+rel_ZZZZZZZZZZZZZZZ" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_TEST+rel_ZZZZZZZZZZZZZZZ" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_ZZZZZZZZZZZZZZZ" name="get" input="input" output="output">
+<ownedParameter xmi:id="_P_get_ZZZZZZZZZZZZZZZ" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_ZZZZZZZZZZZZZZZ" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_ZZZZZZZZZZZZZZZ" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
 <packagedElement xsi:type="uml:Association" xmi:id="26e971e5-0b41-4703-81fe-41b9aa4d8015" name="Class_WWWWW" memberEnd="_OETI_26e971e5-0b41-4703-81fe-41b9aa4d8015 _OESI_26e971e5-0b41-4703-81fe-41b9aa4d8015" navigableOwnedEnd="_OETI_26e971e5-0b41-4703-81fe-41b9aa4d8015 _OESI_26e971e5-0b41-4703-81fe-41b9aa4d8015">
  <ownedEnd xmi:id="_OETI_26e971e5-0b41-4703-81fe-41b9aa4d8015" name="wwwww" type="ea9c8d5d-ce3a-4014-94ef-cfe9ac6a1fdb" association="26e971e5-0b41-4703-81fe-41b9aa4d8015">
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_26e971e5-0b41-4703-81fe-41b9aa4d8015" value="1"/>
@@ -39,6 +61,16 @@
  <ownedEnd xmi:id="_OESI_26e971e5-0b41-4703-81fe-41b9aa4d8015" name="class" type="a2980429-1dd2-4288-9bb7-3a82aa3ef123" association="26e971e5-0b41-4703-81fe-41b9aa4d8015">
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_26e971e5-0b41-4703-81fe-41b9aa4d8015" value="1"/>
 <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_26e971e5-0b41-4703-81fe-41b9aa4d8015" value="1"/>
+</ownedEnd>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="89e9874f-6879-4321-84e6-7cd2533251e2" name="WWWWW_ZZZZZZZZZZZZZZZ" memberEnd="_OETI_89e9874f-6879-4321-84e6-7cd2533251e2 _OESI_89e9874f-6879-4321-84e6-7cd2533251e2" navigableOwnedEnd="_OETI_89e9874f-6879-4321-84e6-7cd2533251e2 _OESI_89e9874f-6879-4321-84e6-7cd2533251e2">
+ <ownedEnd xmi:id="_OETI_89e9874f-6879-4321-84e6-7cd2533251e2" name="zzzzzzzzzzzzzzz" type="8330fd81-0aac-4459-9633-359557e600ee" association="89e9874f-6879-4321-84e6-7cd2533251e2">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_89e9874f-6879-4321-84e6-7cd2533251e2" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_89e9874f-6879-4321-84e6-7cd2533251e2" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_89e9874f-6879-4321-84e6-7cd2533251e2" name="wwwww" type="ea9c8d5d-ce3a-4014-94ef-cfe9ac6a1fdb" association="89e9874f-6879-4321-84e6-7cd2533251e2">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_89e9874f-6879-4321-84e6-7cd2533251e2" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_89e9874f-6879-4321-84e6-7cd2533251e2" value="1"/>
 </ownedEnd>
 </packagedElement>
 </uml:Model>
