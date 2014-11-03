@@ -31,6 +31,24 @@
 </ownedParameter>
 </ownedOperation>
 </packagedElement>
+<packagedElement xsi:type="uml:Class" xmi:id="83191efe-f0d1-4a1f-86fa-1bf265e9163c" name="Trasdas">
+<ownedAttribute xmi:id="_id_Trasdas" name="id">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_id_Trasdas" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_id_Trasdas" value="1"/>
+</ownedAttribute>
+<ownedAttribute xmi:id="_segsdfdgdgd_Trasdas" name="segsdfdgdgd">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_segsdfdgdgd_Trasdas" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_segsdfdgdgd_Trasdas" value="1"/>
+</ownedAttribute>
+<ownedOperation xmi:id="_O_get_Trasdas" name="get" input="input" output="output">
+<ownedParameter xmi:id="_P_get_Trasdas" name="returnParameter" isUnique="false" direction="return">
+<type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Long"/>
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L_get_Trasdas" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U_get_Trasdas" value="1"/>
+</ownedParameter>
+</ownedOperation>
+</packagedElement>
 <packagedElement xsi:type="uml:Association" xmi:id="95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" name="Order_Transaction" memberEnd="_OETI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc _OESI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" navigableOwnedEnd="_OETI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc _OESI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc">
  <ownedEnd xmi:id="_OETI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" name="transaction" type="dcb6452d-e856-439d-91a9-a40e8f2bab3c" association="95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc">
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" value="1"/>
@@ -39,6 +57,16 @@
  <ownedEnd xmi:id="_OESI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" name="order" type="4a37a9d8-e279-4f3d-8cab-806b24faa60b" association="95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc">
 <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" value="1"/>
 <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_95dc1bbb-0c87-4e9d-ab5c-35462f6a55fc" value="1"/>
+</ownedEnd>
+</packagedElement>
+<packagedElement xsi:type="uml:Association" xmi:id="a0fc466a-4759-4704-9271-9ec2163dc189" name="Transaction_Trasdas" memberEnd="_OETI_a0fc466a-4759-4704-9271-9ec2163dc189 _OESI_a0fc466a-4759-4704-9271-9ec2163dc189" navigableOwnedEnd="_OETI_a0fc466a-4759-4704-9271-9ec2163dc189 _OESI_a0fc466a-4759-4704-9271-9ec2163dc189">
+ <ownedEnd xmi:id="_OETI_a0fc466a-4759-4704-9271-9ec2163dc189" name="trasdas" type="83191efe-f0d1-4a1f-86fa-1bf265e9163c" association="a0fc466a-4759-4704-9271-9ec2163dc189">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OETI_a0fc466a-4759-4704-9271-9ec2163dc189" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OETI_a0fc466a-4759-4704-9271-9ec2163dc189" value="1"/>
+</ownedEnd>
+ <ownedEnd xmi:id="_OESI_a0fc466a-4759-4704-9271-9ec2163dc189" name="transaction" type="dcb6452d-e856-439d-91a9-a40e8f2bab3c" association="a0fc466a-4759-4704-9271-9ec2163dc189">
+<lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UCi_L__OESI_a0fc466a-4759-4704-9271-9ec2163dc189" value="1"/>
+<upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCi_U__OESI_a0fc466a-4759-4704-9271-9ec2163dc189" value="1"/>
 </ownedEnd>
 </packagedElement>
 </uml:Model>
